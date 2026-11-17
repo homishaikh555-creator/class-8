@@ -1,0 +1,25 @@
+/* flex ----- layout / Alignment */
+/* flex -single direction */
+.container{
+    border: 20px solid red;
+    width: 2000px;
+    height: 1500px;
+}
+.container div{
+    border: 20px solid green;
+    width: 300px;
+    height: 300px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+/* flex container  */
+/* flex Item */
+/* ---------------------- */
+/* flex container properties */
+/* justify-contant-> horizontl alignment / main axist */
+/* Align-start, flex  */
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
