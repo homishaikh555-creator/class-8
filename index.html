@@ -1,23 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="Box1">Box 1</div>
-        <div class="Box2">Box 2</div>
-        <!-- <div class="Box3">Box 3</div>
-        <div class="Box4">Box 4</div>
-        <div class="Box5">Box 5</div>
-        <div class="Box6">Box 6</div>
-        <div class="Box7">Box 7</div>
-        <div class="Box8">Box 8</div>
-        <div class="Box9">Box 9</div>
-        <div class="Box10">Box 10</div> -->
-    </div>
+  <header class="navbar">
+    <a class="brand" href="#">FlexPage</a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Build Modern Websites with<br class="desktop-break"> Flexbox</h1>
+        <p>Learn the power of Flexbox and build stunning, responsive layouts effortlessly.</p>
+        <a class="primary-button" href="#services">Get Started</a>
+      </div>
+      <div class="hero-image" role="img" aria-label="Placeholder image, 500 by 500">
+        <span>500 x 500</span>
+      </div>
+    </section>
+
+    <section class="features" id="services">
+      <article class="feature">
+        <h2>Fast Setup</h2>
+        <p>Get your project up and running in no time.</p>
+      </article>
+      <article class="feature">
+        <h2>Responsive Design</h2>
+        <p>Your site will look great on any device.</p>
+      </article>
+      <article class="feature">
+        <h2>Modern Tools</h2>
+        <p>Use the latest technologies for the best experience.</p>
+      </article>
+    </section>
+
+    <section class="testimonials" id="about">
+      <h2>What Our Users Say</h2>
+      <div class="quotes">
+        <blockquote>
+          <p>"FlexPage helped me create my site faster than ever!"</p>
+          <cite>- Jane Doe</cite>
+        </blockquote>
+        <blockquote>
+          <p>"The layout is so clean and responsive, I love it!"</p>
+          <cite>- John Smith</cite>
+        </blockquote>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <nav class="footer-links" aria-label="Footer navigation">
+      <a href="#privacy">Privacy Policy</a>
+      <a href="#terms">Terms of Service</a>
+      <a href="mailto:hello@example.com">Contact Us</a>
+    </nav>
+    <p>© 2024 FlexPage. All rights reserved.</p>
+  </footer>
 </body>
 </html>
